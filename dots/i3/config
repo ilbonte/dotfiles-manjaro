@@ -185,6 +185,10 @@ bindsym $mod+$ctrl+Down exec --no-startup-id ~/dotfiles/dots/scripts/i3resize do
 bindsym $mod+$ctrl+Up exec --no-startup-id ~/dotfiles/dots/scripts/i3resize up
 bindsym $mod+$ctrl+Right exec --no-startup-id ~/dotfiles/dots/scripts/i3resize right
 
+# Launch applications on specific workspaces
+bindsym $mod+Shift+w exec  --no-startup-id  ~/dotfiles/dots/scripts/start-work.sh
+
+
 
 # resize window (you can also use the mouse for that)
 
