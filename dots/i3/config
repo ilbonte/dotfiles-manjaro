@@ -187,6 +187,7 @@ bindsym $mod+$ctrl+Right exec --no-startup-id ~/dotfiles/dots/scripts/i3resize r
 
 # Launch applications on specific workspaces
 bindsym $mod+Shift+w exec  --no-startup-id  ~/dotfiles/dots/scripts/start-work.sh
+bindsym $mod+Shift+d exec "~/dotfiles/dots/rofi/power-menu.sh"
 
 
 

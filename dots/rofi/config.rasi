@@ -4,8 +4,8 @@ configuration {
   display-combi: "Switch to";
   kb-remove-to-eol: "";
   kb-accept-entry: "Return,KP_Enter";
-  kb-row-up: "Up,Control+k";
-  kb-row-down: "Down,Control+j";
+  kb-row-up: "Up";
+  kb-row-down: "Down";
   timeout {
       action: "kb-cancel";
       delay: 0;
