@@ -4,5 +4,7 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 export CAPACITOR_ANDROID_STUDIO_PATH=/usr/bin/android-studio
 export ANDROID_SDK_ROOT=/home/bonte/Android/Sdk
+export PATH="$PATH:/home/bonte/development/flutter/bin" 
+export PATH="$PATH:/home/bonte/development/dart/bin" 
 
 source  ~/.secret.env.zsh
