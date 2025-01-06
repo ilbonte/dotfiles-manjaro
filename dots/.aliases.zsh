@@ -11,16 +11,7 @@ alias gs='git status' # Git status
 alias gd='git diff' # Git status
 alias ga='git add' # Git add
 alias gc='git commit -m' # Git commit with a message
-alias gp='git push' # Git push
 alias gco='git checkout'
-
-# Docker aliases
-alias d='docker' # Shorten 'docker' command
-alias dps='docker ps' # List running containers
-alias dstop='docker stop' # Stop a running container
-alias drm='docker rm' # Remove a stopped container
-alias drmi='docker rmi' # Remove an image
-
 
 # System related aliases
 alias usage='du -sh * | sort -rh' # Show disk usage of files and directories
