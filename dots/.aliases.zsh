@@ -2,12 +2,12 @@
 alias c='clear' # Clear the terminal
 
 # List related aliases
-alias ll='ls -alF' # Long listing with hidden files
-alias lls='ls -alhF' # Long listing with human-readable file sizes
+# alias ll='ls -alF' # Long listing with hidden files
+alias ll='ls -alhF' # Long listing with human-readable file sizes
 
 
 # Git aliases
-alias gs='git status' # Git status
+alias gst='git status' # Git status
 alias gd='git diff' # Git status
 alias ga='git add' # Git add
 alias gc='git commit -m' # Git commit with a message
