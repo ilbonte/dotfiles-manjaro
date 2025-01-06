@@ -14,5 +14,7 @@ export DOCKER_HOST=unix:///var/run/docker.sock  # This sets it to the default Do
 export JAVA_HOME=/usr/lib/jvm/java-18-openjdk
 export PATH=$JAVA_HOME/bin:$PATH
 
+export CUDA_HOME=/opt/cuda
+
 
 source  ~/.secret.env.zsh
