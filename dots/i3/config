@@ -49,8 +49,8 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # gaps
-gaps inner 18px
-gaps top 38px
+gaps inner 8px
+gaps top 4px
 gaps bottom 0px
 smart_gaps off
 
@@ -73,7 +73,7 @@ bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
 # bindsym $mod+d exec --no-startup-id dmenu_run
-bindsym $mod+d exec rofi -show combi
+bindsym $mod+space exec rofi -show combi
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -122,7 +122,7 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+# bindsym $mod+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -156,16 +156,16 @@ bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws10
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace number $ws1
-bindsym $mod+Shift+2 move container to workspace number $ws2
-bindsym $mod+Shift+3 move container to workspace number $ws3
-bindsym $mod+Shift+4 move container to workspace number $ws4
-bindsym $mod+Shift+5 move container to workspace number $ws5
-bindsym $mod+Shift+6 move container to workspace number $ws6
-bindsym $mod+Shift+7 move container to workspace number $ws7
-bindsym $mod+Shift+8 move container to workspace number $ws8
-bindsym $mod+Shift+9 move container to workspace number $ws9
-bindsym $mod+Shift+0 move container to workspace number $ws10
+bindsym $mod+Shift+1 move container to workspace number $ws1; workspace 1
+bindsym $mod+Shift+2 move container to workspace number $ws2; workspace 2
+bindsym $mod+Shift+3 move container to workspace number $ws3; workspace 3
+bindsym $mod+Shift+4 move container to workspace number $ws4; workspace 4
+bindsym $mod+Shift+5 move container to workspace number $ws5; workspace 5
+bindsym $mod+Shift+6 move container to workspace number $ws6; workspace 6
+bindsym $mod+Shift+7 move container to workspace number $ws7; workspace 7
+bindsym $mod+Shift+8 move container to workspace number $ws8; workspace 8
+bindsym $mod+Shift+9 move container to workspace number $ws9; workspace 9
+bindsym $mod+Shift+0 move container to workspace number $ws10; workspace 10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -203,14 +203,6 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-    position top
-    status_command i3status
-    height 30
-    colors {
-      background #242424
-    }
-}
 
 
 # mods for kde
@@ -241,13 +233,11 @@ for_window [title="Desktop @ QRect.*"] kill; floating enable; border none
 bindsym $mod+Shift+e exec --no-startup-id qdbus-qt5 org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.logout -1 -1 -1
 
 
-
-
 bindsym XF86AudioRaiseVolume exec --no-startup-id qdbus org.kde.kglobalaccel /component/kmix invokeShortcut "increase_volume"
 bindsym XF86AudioLowerVolume exec --no-startup-id qdbus org.kde.kglobalaccel /component/kmix invokeShortcut "decrease_volume"
 bindsym XF86AudioMute exec --no-startup-id qdbus org.kde.kglobalaccel /component/kmix invokeShortcut "mute"
 bindsym XF86AudioMicMute exec --no-startup-id qdbus org.kde.kglobalaccel /component/kmix invokeShortcut "mic_mute"
 
 
-
-
+# screenshots
+bindsym Print exec flameshot gui
