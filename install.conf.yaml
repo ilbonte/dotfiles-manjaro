@@ -16,6 +16,6 @@
     # ~/.config/dunst: dots/dunst
     # ~/.config/alacritty: dots/alacritty
     ~/.config/picom: dots/picom
-    # ~/.local/share/fonts: dots/fonts
-    ~/.config/systemd/user: dots/systemd
-    ~/.local/bin/desktop-init: dots/scripts/desktop-init
+    
+    # ~/.config/systemd/user: dots/systemd
+    # ~/.local/bin/desktop-init: dots/scripts/desktop-init
