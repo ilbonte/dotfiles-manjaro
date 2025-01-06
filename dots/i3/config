@@ -238,7 +238,7 @@ bindsym XF86AudioMicMute exec --no-startup-id qdbus org.kde.kglobalaccel /compon
 
 
 # screenshots
-bindsym Print exec flameshot gui
+bindsym $mod+Shift+x exec flameshot gui
 
 
 # class         border  backgr. text indicator child_border
