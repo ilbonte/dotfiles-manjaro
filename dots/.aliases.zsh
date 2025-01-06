@@ -22,3 +22,6 @@ alias ports='netstat -tulanp' # List all listening ports
 # File manipulation aliases
 alias cpv='rsync -ah --info=progress2' # Copy files with progress
 alias mv='mv -i' # Prompt before overwriting when using mv
+
+eval $(thefuck --alias) 
+
