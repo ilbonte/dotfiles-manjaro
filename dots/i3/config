@@ -49,7 +49,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # gaps
-gaps inner 8px
+gaps inner 4px
 gaps top 0px
 gaps bottom 0px
 smart_gaps off
