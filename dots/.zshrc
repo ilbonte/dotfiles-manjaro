@@ -15,5 +15,5 @@ source /usr/share/fzf/completion.zsh
 [[ -s /etc/profile.d/autojump.zsh ]] && source /etc/profile.d/autojump.zsh
 
 
-source ./.env.zsh
-source ./.aliases.zsh
+source ~/.env.zsh
+source ~/.aliases.zsh
