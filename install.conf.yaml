@@ -1,0 +1,21 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+    shell:
+      stdout: true
+      stderr: true
+
+- link:
+    ~/.zshrc: dots/.zshrc
+    # ~/.config/git: dots/git
+    ~/.config/i3: dots/i3
+    ~/.config/polybar: dots/polybar
+    ~/.config/rofi: dots/rofi
+    # ~/.config/dunst: dots/dunst
+    # ~/.config/alacritty: dots/alacritty
+    ~/.config/picom: dots/picom
+    # ~/.local/share/fonts: dots/fonts
+    ~/.config/systemd/user: dots/systemd
+    ~/.local/bin/desktop-init: dots/scripts/desktop-init
