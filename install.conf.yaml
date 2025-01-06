@@ -9,13 +9,11 @@
 
 - link:
     ~/.zshrc: dots/.zshrc
+    ~/.aliases.zsh: dots/.aliases.zsh
+    ~/.env.zsh: dots/.env.zsh
+    ~/.secret.env.zsh: dots/.secret.env.zsh
     # ~/.config/git: dots/git
     ~/.config/i3: dots/i3
     ~/.config/polybar: dots/polybar
     ~/.config/rofi: dots/rofi
-    # ~/.config/dunst: dots/dunst
-    # ~/.config/alacritty: dots/alacritty
     ~/.config/picom: dots/picom
-    
-    # ~/.config/systemd/user: dots/systemd
-    # ~/.local/bin/desktop-init: dots/scripts/desktop-init
